@@ -11,9 +11,9 @@ import { productsQuery } from "@/lib/queries";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VoltHub — TVs, Laptops, Phones, Fridges & Three-Wheelers" },
+      { title: "KIT ELECTRONICS — TVs, Laptops, Phones, Fridges & Three-Wheelers" },
       { name: "description", content: "Shop genuine electronics and appliances with live store stock, Cash on Delivery or Bank Transfer, and real-time order tracking." },
-      { property: "og:title", content: "VoltHub — Electronics & Appliances" },
+      { property: "og:title", content: "KIT ELECTRONICS — Electronics & Appliances" },
       { property: "og:description", content: "Live store stock, COD or bank transfer, and real-time order tracking." },
     ],
   }),

@@ -12,9 +12,9 @@ export const Route = createFileRoute("/track")({
   validateSearch: z.object({ q: z.string().optional() }),
   head: () => ({
     meta: [
-      { title: "Track your order — VoltHub" },
+      { title: "Track your order — KIT ELECTRONICS" },
       { name: "description", content: "Track active and past orders with your phone number or order ID." },
-      { property: "og:title", content: "Track your order — VoltHub" },
+      { property: "og:title", content: "Track your order — KIT ELECTRONICS" },
       { property: "og:description", content: "Live order status from placement to delivery." },
     ],
   }),

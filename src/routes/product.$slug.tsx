@@ -14,9 +14,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/product/$slug")({
   head: () => ({
     meta: [
-      { title: "Product details — VoltHub" },
+      { title: "Product details — KIT ELECTRONICS" },
       { name: "description", content: "Specifications, warranty, price and live store stock." },
-      { property: "og:title", content: "Product details — VoltHub" },
+      { property: "og:title", content: "Product details — KIT ELECTRONICS" },
       { property: "og:description", content: "Specifications, warranty, price and live store stock." },
     ],
   }),

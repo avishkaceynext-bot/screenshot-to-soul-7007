@@ -10,9 +10,9 @@ export const Route = createFileRoute("/order/$code")({
   validateSearch: z.object({ phone: z.string().optional() }),
   head: () => ({
     meta: [
-      { title: "Order placed — VoltHub" },
+      { title: "Order placed — KIT ELECTRONICS" },
       { name: "description", content: "Your order confirmation and live status." },
-      { property: "og:title", content: "Order placed — VoltHub" },
+      { property: "og:title", content: "Order placed — KIT ELECTRONICS" },
       { property: "og:description", content: "Your order confirmation and live status." },
       { name: "robots", content: "noindex" },
     ],

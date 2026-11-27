@@ -8,7 +8,7 @@ import type { Database } from "@/integrations/supabase/types";
 
 export type Product = Database["public"]["Tables"]["products"]["Row"];
 
-export const STORE_NAME = "VoltHub";
+export const STORE_NAME = "KIT ELECTRONICS";
 
 export const productImages: Record<string, string> = {
   tv,
@@ -35,7 +35,7 @@ export const BANK_DETAILS = {
   bankName: "Commercial Bank of Ceylon",
   branch: "Colombo Main Branch",
   accountNumber: "8001 2345 6789",
-  accountName: "VoltHub Electronics (Pvt) Ltd",
+  accountName: "KIT ELECTRONICS (Pvt) Ltd",
 };
 
 export const FREE_DELIVERY_FROM = 100000;

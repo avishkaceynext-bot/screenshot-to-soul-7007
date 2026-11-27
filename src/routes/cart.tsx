@@ -8,9 +8,9 @@ import { OrderSummary } from "@/components/order-bits";
 export const Route = createFileRoute("/cart")({
   head: () => ({
     meta: [
-      { title: "Your cart — VoltHub" },
+      { title: "Your cart — KIT ELECTRONICS" },
       { name: "description", content: "Review items in your cart before checkout." },
-      { property: "og:title", content: "Your cart — VoltHub" },
+      { property: "og:title", content: "Your cart — KIT ELECTRONICS" },
       { property: "og:description", content: "Review items in your cart before checkout." },
     ],
   }),

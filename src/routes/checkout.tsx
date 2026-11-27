@@ -16,9 +16,9 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/checkout")({
   head: () => ({
     meta: [
-      { title: "Checkout — VoltHub" },
+      { title: "Checkout — KIT ELECTRONICS" },
       { name: "description", content: "Enter delivery details and pay by Cash on Delivery or Bank Transfer." },
-      { property: "og:title", content: "Checkout — VoltHub" },
+      { property: "og:title", content: "Checkout — KIT ELECTRONICS" },
       { property: "og:description", content: "Secure checkout with COD or bank transfer." },
     ],
   }),

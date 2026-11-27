@@ -15,9 +15,9 @@ import { ORDER_STAGES, formatLKR } from "@/lib/store";
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
-      { title: "Admin — VoltHub" },
+      { title: "Admin — KIT ELECTRONICS" },
       { name: "description", content: "Verify bank slips, manage web orders and inventory." },
-      { property: "og:title", content: "Admin — VoltHub" },
+      { property: "og:title", content: "Admin — KIT ELECTRONICS" },
       { property: "og:description", content: "Manage web orders and inventory." },
       { name: "robots", content: "noindex" },
     ],

@@ -19,9 +19,9 @@ export const Route = createFileRoute("/shop")({
   validateSearch: searchSchema,
   head: () => ({
     meta: [
-      { title: "Shop all products — VoltHub" },
+      { title: "Shop all products — KIT ELECTRONICS" },
       { name: "description", content: "Browse TVs, laptops, mobile phones, refrigerators, rice cookers and three-wheelers with live stock." },
-      { property: "og:title", content: "Shop all products — VoltHub" },
+      { property: "og:title", content: "Shop all products — KIT ELECTRONICS" },
       { property: "og:description", content: "Filter by category, price and in-stock items." },
     ],
   }),
